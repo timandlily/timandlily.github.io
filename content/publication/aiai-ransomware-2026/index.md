@@ -2,7 +2,7 @@
 title: 'AI-Amplification Indicator: An Actor-Level Scoring Framework for Ransomware Operations on the Dark Web'
 authors:
   - Moallim Mostafa
-  - admin
+  - me
   - Ibrahim Alzahrani
   - Faisal Abdulaziz Alfouzan
   - Kyounggon Kim

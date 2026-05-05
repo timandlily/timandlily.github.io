@@ -2,7 +2,7 @@
 title: 'XFRAME: XML-Based Framework for Efficient Acquiring Digital Evidence on Windows Live Systems'
 authors:
   - Kyoung Soo Lim
-  - admin
+  - me
   - Sangjin Lee
   - Jongin Lim
 date: '2008-01-01'

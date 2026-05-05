@@ -2,7 +2,7 @@
 title: 'Cryptocurrency-Driven Ransomware Syndicates Operating on the Darknet: A Focused Examination of the Arab World'
 authors:
   - Kyounggon Kim
-  - admin
+  - me
   - Sundaresan Ramachandran
   - Ibrahim Alzahrani
 date: '2025-01-01'

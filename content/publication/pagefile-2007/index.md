@@ -1,7 +1,7 @@
 ---
 title: 'Windows Pagefile Collection and Analysis for a Live Forensics Context'
 authors:
-  - admin
+  - me
   - Antonio Savoldi
   - Sangjin Lee
   - Jongin Lim

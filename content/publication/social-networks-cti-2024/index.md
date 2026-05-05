@@ -1,7 +1,7 @@
 ---
 title: 'Leveraging Social Networks for Cyber Threat Intelligence: Analyzing Attack Trends and TTPs in the Arab World'
 authors:
-  - admin
+  - me
   - Aisha Al-Mutairi
   - Kyounggon Kim
 date: '2024-11-01'

@@ -1,7 +1,7 @@
 ---
 title: 'Glossary of Key Terms in Cybercrimes and Digital Forensics'
 authors:
-  - admin
+  - me
 date: '2024-07-01'
 publishDate: '2024-07-01'
 publication_types:

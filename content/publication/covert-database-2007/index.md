@@ -2,7 +2,7 @@
 title: 'Discovering Methodology and Scenario to Detect Covert Database Systems'
 authors:
   - Gutaek Lee
-  - admin
+  - me
   - Elena Tsomko
   - Sangjin Lee
   - Jongin Lim

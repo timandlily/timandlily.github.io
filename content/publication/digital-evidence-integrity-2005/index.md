@@ -1,7 +1,7 @@
 ---
 title: 'Integrity and Privacy in Digital Evidence Collection Process'
 authors:
-  - admin
+  - me
   - Hyunsang Kim
   - Sangjin Lee
   - Jongin Lim

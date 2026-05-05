@@ -1,7 +1,7 @@
 ---
 title: 'An On-Site Digital Investigation Methodology for Data Leak Cases'
 authors:
-  - admin
+  - me
   - Jonghyuk Park
   - Sangjin Lee
   - Jongin Lim

@@ -1,7 +1,7 @@
 ---
 title: 'Data Leak Analysis in a Corporate Environment'
 authors:
-  - admin
+  - me
   - Antonio Savoldi
   - Sangjin Lee
   - Jongin Lim

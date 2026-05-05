@@ -1,7 +1,7 @@
 ---
 title: 'A Proposal for Automating Investigations in Live Forensics'
 authors:
-  - admin
+  - me
   - Antonio Savoldi
   - Sangjin Lee
   - Jongin Lim

@@ -1,7 +1,7 @@
 ---
 title: 'Password Recovery Using an Evidence Collecting Tool and Countermeasures'
 authors:
-  - admin
+  - me
   - Antonio Savoldi
   - Sangjin Lee
   - Jongin Lim

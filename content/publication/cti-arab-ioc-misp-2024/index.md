@@ -2,7 +2,7 @@
 title: 'Enhancing Cyber-Threat Intelligence in the Arab World: Leveraging IoC and MISP Integration'
 authors:
   - Ibrahim Yahya Alzahrani
-  - admin
+  - me
   - Kyounggon Kim
 date: '2024-06-01'
 publishDate: '2024-06-01'
