@@ -2,115 +2,133 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Dr. Seokhee Lee
+  given: Seokhee
+  family: Lee
+  alternate: '이석희'
+  pronunciation: ''
   pronouns: he/him
 postnominals:
   - PhD
-  - MIEEE
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: Assistant Professor & Program Director
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
-
+  Dr. Seokhee Lee is an Assistant Professor and Program Director in the 
+  Department of Cybersecurity and Digital Forensics at Naif Arab University 
+  for Security Sciences (NAUSS), Riyadh, Saudi Arabia. He is the first PhD 
+  in Digital Forensics in Korea. His expertise spans Cyber Threat Intelligence, 
+  Digital Forensics, and Incident Response, with 18+ years of experience across 
+  academia, government, and legal sectors.
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name: Naif Arab University for Security Sciences (NAUSS)
+    url: https://www.nauss.edu.sa/
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:gosky7@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://linkedin.com/in/seokheelee
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+    url: https://scholar.google.com/citations?user=NPx1faEAAAAJ
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - Cyber Threat Intelligence (CTI)
+  - Digital Forensics
+  - Incident Analysis and Response
+  - Cybercrime Investigation
+  - SCADA & ICS Security
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD Information Security (Digital Forensics)
+    institution: Korea University
+    start: 2006-03-01
+    end: 2011-07-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
+      First PhD in Digital Forensics in Korea. 
+      Research on digital evidence collection, live forensics, and investigation methodology.
+  - degree: MS Information Security (Digital Forensics)
+    institution: Korea University
+    start: 2004-03-01
+    end: 2006-02-28
+  - degree: BS Computer Engineering
+    institution: Pukyong National University
+    start: 1996-03-01
+    end: 2002-02-28
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Assistant Professor & Program Director
+    org: NAUSS (Naif Arab University for Security Sciences)
+    start: 2022-06-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Teaching Cyber Threat Intelligence, Incident Analysis and Response, 
+      Digital Forensics and Evidence Seizure, and Smart City Forensics 
+      for master's degree students. Directing the Cybersecurity and Digital 
+      Forensics Program. Delivered Interpol-recognized Cyber Crime Investigation training.
+  - role: Director for Cyber Security Division (CISO / CPO / Chief of CERT)
+    org: NIRS (National Information and Resource Services), Ministry of the Interior
+    start: 2017-06-01
+    end: 2022-05-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+      Led information security for Korea's government data center serving 45 ministries. 
+      Built AI-based security monitoring system (AIRIS). Joined FIRST international 
+      incident response consortium. Established ISMS-P certification — first in Korean 
+      public sector. Responded to 23 cyber incidents as CERT chief.
+  - role: Digital Forensic Expert
+    org: Kim & Chang Law Firm (K&C)
+    start: 2008-02-01
+    end: 2017-05-31
+    summary: |
+      Handled trade secret leakage, e-discovery, and digital forensics for Korea's 
+      largest law firm. Supported cross-border litigation including U.S. class action 
+      suits. Served as information security committee member for the 2018 PyeongChang 
+      Winter Olympics.
 skills:
   - name: Technical Skills
     items:
-      - label: Python
+      - label: Digital Forensics
         level: 5
-      - label: Machine Learning
+      - label: Cyber Threat Intelligence
         level: 5
-      - label: Cloud Computing
+      - label: Incident Response
+        level: 5
+      - label: Malware Analysis
         level: 4
+      - label: E-Discovery
+        level: 5
   - name: Research & Communication
     items:
       - label: Academic Writing
         level: 5
       - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
+        level: 5
+      - label: Course Development
+        level: 5
+      - label: Government Advisory
+        level: 5
 languages:
-  - name: English
+  - name: Korean
     level: 5
     label: Native
-  - name: Spanish
+  - name: English
     level: 4
-    label: Fluent
-
+    label: Professional
 awards:
+  - title: National Cyber Security Presidential Merit
+    awarder: President of Republic of Korea
+    date: "2022-01-01"
+    summary: Awarded for contributions to national information security.
+    icon: hero/trophy
+  - title: National Cyber Security Contribution Commendation
+    awarder: Ministry of National Intelligence Service
+    date: "2021-01-01"
+    icon: hero/trophy
+  - title: National Cyber Security Presidential Award
+    awarder: Republic of Korea
+    date: "2019-01-01"
+    icon: hero/trophy
   - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+    awarder: CISC Conference
+    date: "2006-01-01"
+    icon: hero/trophy
+  - title: Best Paper Award
+    awarder: CISC Conference
+    date: "2005-01-01"
     icon: hero/trophy
