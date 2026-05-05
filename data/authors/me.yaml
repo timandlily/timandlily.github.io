@@ -70,7 +70,8 @@ experience:
       Led information security for Korea's government data center serving 45 ministries. 
       Built AI-based security monitoring system (AIRIS). Joined FIRST international 
       incident response consortium. Established ISMS-P certification — first in Korean 
-      public sector. Responded to 23 cyber incidents as CERT chief.
+      public sector. Responded to 23 cyber incidents as CERT chief.Served as information security committee member for the 2018 PyeongChang 
+      Winter Olympics.
   - role: Digital Forensic Expert
     org: Kim & Chang Law Firm (K&C)
     start: 2008-02-01
@@ -78,8 +79,7 @@ experience:
     summary: |
       Handled trade secret leakage, e-discovery, and digital forensics for Korea's 
       largest law firm. Supported cross-border litigation including U.S. class action 
-      suits. Served as information security committee member for the 2018 PyeongChang 
-      Winter Olympics.
+      suits. 
 skills:
   - name: Technical Skills
     items:
