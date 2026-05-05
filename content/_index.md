@@ -38,11 +38,12 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research focuses on Cyber Threat Intelligence, Digital Forensics, and Crypto Currency Investigations. 
+        I combine academic research with real-world experience from government, legal, and industry sectors.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        With 18+ years of experience spanning Korea's largest law firm, national government cybersecurity leadership, and international academia, I bring both technical depth and practical insight to my work.
 
-        Please reach out to collaborate 😃
+        Feel free to reach out for research collaboration or consulting 😃
     design:
       columns: '1'
   - block: collection
