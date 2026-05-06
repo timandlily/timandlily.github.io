@@ -6,6 +6,9 @@ tags:
   - Course
   - NAUSS
 type: docs
+image:
+  filename: ctir.png   # ← 이미지 파일명
+  caption: ''
 ---
 This course examines intrusion detection, prevention, and incident response alongside cyber threat intelligence fundamentals. Students gain hands-on experience with CTI platforms including TheHive, Cortex, MISP, and Wazuh.
 
