@@ -1,13 +1,11 @@
 name: Sync Weekly Research Briefing
 
 on:
-  # research-briefings repo가 push되면 이 워크플로우를 트리거
   repository_dispatch:
     types: [new-briefing]
-  # 또는 매주 일요일 오전 9시 30분(리야드 시간 = UTC+3 → UTC 06:30)에 자동 실행
   schedule:
     - cron: '30 6 * * 0'
-  workflow_dispatch:  # 수동 실행 버튼
+  workflow_dispatch:
 
 jobs:
   sync-briefing:
@@ -27,9 +25,8 @@ jobs:
       - name: Find latest Hugo briefing file
         id: find
         run: |
-          LATEST=$(ls briefings-source/ | grep "^[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-weekly-briefing-hugo.md" | sort -r | head -1)
+          LATEST=$(ls briefings-source/ | grep -E "^[0-9]{4}-[0-9]{2}-[0-9]{2}-weekly-briefing-hugo\.md$" | sort -r | head -1)
           if [ -z "$LATEST" ]; then
-            echo "No new briefing found."
             echo "found=false" >> $GITHUB_OUTPUT
           else
             DATE=$(echo "$LATEST" | grep -oP '\d{4}-\d{2}-\d{2}')
@@ -42,15 +39,20 @@ jobs:
         if: steps.find.outputs.found == 'true'
         run: |
           DIR="content/blog/${{ steps.find.outputs.date }}-weekly-briefing"
-          mkdir -p "$DIR"
-          cp "briefings-source/${{ steps.find.outputs.file }}" "$DIR/index.md"
-          echo "✅ Copied to $DIR/index.md"
+          if [ -d "$DIR" ]; then
+            echo "Already exists, skipping."
+            echo "skip=true" >> $GITHUB_ENV
+          else
+            mkdir -p "$DIR"
+            cp "briefings-source/${{ steps.find.outputs.file }}" "$DIR/index.md"
+            echo "skip=false" >> $GITHUB_ENV
+          fi
 
       - name: Commit and push
-        if: steps.find.outputs.found == 'true'
+        if: steps.find.outputs.found == 'true' && env.skip == 'false'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add content/blog/
-          git diff --staged --quiet && echo "No changes to commit" || \
+          git diff --staged --quiet && echo "Nothing to commit." || \
             (git commit -m "Add weekly briefing ${{ steps.find.outputs.date }}" && git push)
