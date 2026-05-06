@@ -7,8 +7,8 @@ tags:
   - NAUSS
 type: docs
 image:
-  url: https://images.unsplash.com/photo-1573804633927-bfcbcd909acd
-  caption: 'Photo by Unsplash'
+  filename: smartcity.jpg   # ← 이미지 파일명
+  caption: ''
 ---
 This course introduces digital forensics investigation processes spanning smart city ecosystems including IoT, smart devices, autonomous vehicles, smart grids, and blockchain technologies.
 
