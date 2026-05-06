@@ -1,7 +1,6 @@
 ---
 title: "Weekly Research Briefing: 2026-05-07"
 date: 2026-05-07T09:00:00+03:00
-type: blog
 tags:
   - CTI
   - Digital Forensics
