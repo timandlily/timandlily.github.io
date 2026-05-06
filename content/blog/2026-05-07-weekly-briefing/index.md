@@ -1,4 +1,10 @@
 ---
+title: "Weekly Research Briefing: YYYY-MM-DD"
+date: YYYY-MM-DDT09:00:00+03:00
+summary: "이번 주 CTI, SCADA, 디지털 포렌식 연구 동향 요약"
+authors:
+  - me
+tags:
 title: "Weekly Research Briefing: 2026-05-07"
 date: 2026-05-07T09:00:00+03:00
 tags: 
@@ -6,8 +12,8 @@ tags:
   - Digital Forensics
   - SCADA
   - Weekly Briefing
-  - Research
-summary: "이번 주 CTI, SCADA, 디지털 포렌식 연구 동향 요약"
+cover:
+  image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
 ---
 
 # 📋 Weekly Research Briefing — CTI / SCADA / Digital Forensics
