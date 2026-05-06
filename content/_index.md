@@ -35,15 +35,14 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 '
       subtitle: ''
-      text: |-
-        My research focuses on Cyber Threat Intelligence, Digital Forensics, and Crypto Currency Investigations. 
-        I combine academic research with real-world experience from government, legal, and industry sectors.
+      text: My research focuses on Cyber Threat Intelligence, Digital Forensics, and Crypto Currency Investigations. 
+            I combine academic research with real-world experience from government, legal, and industry sectors.
 
-        With 18+ years of experience spanning Korea's largest law firm, national government cybersecurity leadership, and international academia, I bring both technical depth and practical insight to my work.
+            With 18+ years of experience spanning Korea's largest law firm, national government cybersecurity leadership, and international academia, I bring both technical depth and practical insight to my work.
 
-        Feel free to reach out for research collaboration or consulting 😃
+            Feel free to reach out for research collaboration or consulting 😃
     design:
       columns: '1'
   - block: collection
