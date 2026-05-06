@@ -1,11 +1,13 @@
 ---
 title: Smart City Forensics
-summary: Digital forensics in smart city infrastructure and IoT environments.
+summary: Course 542 | 2 Credits | Master of Cybercrime and Digital Forensics
 date: 2023-09-01
-type: book
 tags:
-  - Smart City
-  - IoT Forensics
-  - Infrastructure Security
+  - Course
+  - NAUSS
+type: docs
 ---
-Covers forensic investigation methodologies applied to smart city infrastructure, IoT devices, and connected urban systems including traffic systems, surveillance networks, and public services.
+This course introduces digital forensics investigation processes spanning smart city ecosystems including IoT, smart devices, autonomous vehicles, smart grids, and blockchain technologies.
+
+**Prerequisites:** None  
+**Assessment:** Assignment 1 10% | Midterm 20% | Assignment 2 20% | Final 40% | Interaction 10%

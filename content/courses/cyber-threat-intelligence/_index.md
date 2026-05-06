@@ -1,14 +1,13 @@
 ---
-title: Cyber Threat Intelligence
-summary: Hands-on CTI course using TheHive, Cortex, MISP, and Wazuh.
+title: Cybercrime Threat Intelligence and Incident Response
+summary: Course 537 | 3 Credits | Master of Cybercrime and Digital Forensics
 date: 2022-09-01
-type: book
 tags:
-  - CTI
-  - MISP
-  - TheHive
-  - Wazuh
-image:
-  caption: ''
+  - Course
+  - NAUSS
+type: docs
 ---
-Students operate four open-source security platforms (TheHive, Cortex, MISP, Wazuh) as an integrated SOC environment. Covers CTI acquisition, threat sharing, and virtual CERT/CTI team collaboration.
+This course examines intrusion detection, prevention, and incident response alongside cyber threat intelligence fundamentals. Students gain hands-on experience with CTI platforms including TheHive, Cortex, MISP, and Wazuh.
+
+**Prerequisites:** 523 Network Forensics  
+**Assessment:** Assignments 30% | Midterm 20% | Interaction 10% | Final 40%
