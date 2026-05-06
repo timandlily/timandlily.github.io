@@ -1,7 +1,7 @@
 ---
 title: "Weekly Research Briefing: 2026-05-07"
 date: 2026-05-07T09:00:00+03:00
-tags:
+tags: 
   - CTI
   - Digital Forensics
   - SCADA
